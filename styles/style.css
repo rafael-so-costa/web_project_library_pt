@@ -162,7 +162,8 @@
 }
 
 .card__footer {
-  margin-top: auto;
+
+  margin: 0 auto;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
