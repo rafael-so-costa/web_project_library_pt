@@ -234,7 +234,7 @@
 }
 
 .events__cover {
-   flex-grow: 1;
+  flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 780px;
   max-width: 780px;
@@ -242,7 +242,7 @@
 }
 
 .events__image {
-   max-width: 100%;
+  max-width: 100%;
 }
 
 .person {
@@ -288,15 +288,133 @@
 }
 
 .person__image_size_m {
-   width: 100px;
+  width: 100px;
 }
 
 .person__image_size_s {
-   width: 80px;
+  width: 80px;
 }
 
 .person__caption {
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.step {
+  flex-basis: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: white;
+  padding: 80px 60px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto 60px;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 300px;
+
+
+}
+
+.footer__column_content_hours {}
+
+.footer__column_content_social {}
+
+.footer__logo {
+  width: 58px;
+  height: 80px;
+}
+
+.footer__column-heading {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 0 20px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 10px;
+}
+
+
+.footer__column-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer__copyright {
+  margin: 0;
+
+  font-size: 14px;
+  color: #bbbbbb;
+  margin: 0 0 20px 80px;
 }
