@@ -163,6 +163,9 @@
 
 .card__footer {
   margin-top: auto;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
