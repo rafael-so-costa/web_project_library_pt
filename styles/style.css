@@ -375,11 +375,13 @@
 }
 
 .footer__column_content_hours {
-  width: 20%;
+
+ align-items: flex-end;
 }
 
 .footer__column_content_social {
-  width: 20%;
+
+ align-items: flex-end;
 }
 
 .footer__logo {
