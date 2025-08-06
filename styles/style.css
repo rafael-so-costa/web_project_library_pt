@@ -51,7 +51,7 @@
   justify-content: space-between;
 }
 
-.header__content>div {
+.header__content > div {
   max-width: 635px;
 }
 
@@ -128,7 +128,6 @@
   padding-left: 0;
   margin: 68px auto 0;
   max-width: 760px;
-
 }
 
 .card {
@@ -270,13 +269,12 @@
 
 .person_name_mitchell {
   bottom: 82px;
-  left: 142px
+  left: 142px;
 }
 
 .person_name_tarter {
   top: 79px;
   left: 159px;
-
 }
 
 .person__image {
@@ -350,10 +348,14 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: white;
-  padding: 80px 60px;
+
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .footer__columns {
@@ -375,13 +377,11 @@
 }
 
 .footer__column_content_hours {
-
- align-items: flex-end;
+    margin-left:auto:
 }
 
 .footer__column_content_social {
-
- align-items: flex-end;
+    margin-left:80px;
 }
 
 .footer__logo {
@@ -405,7 +405,6 @@
   margin-bottom: 10px;
 }
 
-
 .footer__column-link {
   display: flex;
   align-items: center;
@@ -420,8 +419,7 @@
 }
 
 .footer__copyright {
-
   font-size: 14px;
   color: #bbbbbb;
-  margin: 0 0 20px 80px;
+  margin-top: 100px;
 }
